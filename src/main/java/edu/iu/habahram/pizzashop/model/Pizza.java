@@ -1,15 +1,15 @@
+
 package edu.iu.habahram.pizzashop.model;
 
 public abstract class Pizza {
-    String name;
 
+    String name;
     Dough dough;
     Sauce sauce;
     Veggies[] veggies;
     Cheese cheese;
     Pepperoni pepperoni;
     Clams clam;
-
     StringBuffer state = new StringBuffer();
 
     abstract void prepare();

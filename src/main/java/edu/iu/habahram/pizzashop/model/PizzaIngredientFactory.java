@@ -1,3 +1,4 @@
+
 package edu.iu.habahram.pizzashop.model;
 
 public interface PizzaIngredientFactory {
@@ -8,5 +9,5 @@ public interface PizzaIngredientFactory {
 	public Veggies[] createVeggies();
 	public Pepperoni createPepperoni();
 	public Clams createClam();
- 
+	public Veggies[] createCheeseVeggies();
 }

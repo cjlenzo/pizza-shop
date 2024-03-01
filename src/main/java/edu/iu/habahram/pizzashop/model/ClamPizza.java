@@ -1,6 +1,8 @@
+
 package edu.iu.habahram.pizzashop.model;
 
 public class ClamPizza extends Pizza {
+
 	PizzaIngredientFactory ingredientFactory;
  
 	public ClamPizza(PizzaIngredientFactory ingredientFactory) {

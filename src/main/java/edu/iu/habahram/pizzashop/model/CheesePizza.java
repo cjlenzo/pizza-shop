@@ -1,6 +1,8 @@
+
 package edu.iu.habahram.pizzashop.model;
 
 public class CheesePizza extends Pizza {
+
 	PizzaIngredientFactory ingredientFactory;
  
 	public CheesePizza(PizzaIngredientFactory ingredientFactory) {
@@ -12,5 +14,6 @@ public class CheesePizza extends Pizza {
 		dough = ingredientFactory.createDough();
 		sauce = ingredientFactory.createSauce();
 		cheese = ingredientFactory.createCheese();
+		veggies = ingredientFactory.createCheeseVeggies();
 	}
 }
